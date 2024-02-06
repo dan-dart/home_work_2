@@ -7,6 +7,7 @@ void main() {
   print(numberMasssiv.first);
   print(numberMasssiv[4]);
   print(numberMasssiv.last);
+  print('\n');
 
 //Даны два массива с числами [3, 12, 43, 1, 25, 6, 5, 7] и
 //[55, 11, 23, 56, 78, 1, 9]. Объедените данные массивы и выведите в консоли,
@@ -15,7 +16,7 @@ void main() {
   List secondNumberMass = <int>[55, 11, 23, 56, 78, 1, 9];
   firstNumberMass.addAll(secondNumberMass);
   print(firstNumberMass);
-
+  print('\n');
   print('Задача 3.');
 //Дан массив ['a','d','F','l','u','t','t','e','R','y','3','b','h','j'],
 //из данного массива необходимо вывести в консоли массив ['F','l','u','t','t','e','R']
@@ -38,7 +39,7 @@ void main() {
   massiv.removeRange(0, 2);
   massiv.removeRange(7, 12);
   print(massiv);
-
+  print('\n');
   print('Задача 4.');
 //выведите true если массивы слодержит цифру 3 [1, 2, 3, 4, 5, 6, 7],
 //также покажите первый и последний элемент массива и его длину
@@ -47,7 +48,7 @@ void main() {
   print('Первый элемент массива: ${massNumber.first}');
   print('Последний элемент массива: ${massNumber.last}');
   print('Длина массива: ${massNumber.length}');
-
+  print('\n');
   print('Задача 5.');
 //У вас есть список со значениями = [601 123, 2, "dart", 45, 95, "dart24", 1];
 //Попробуйте определить содержит ли список такие элементы как:
@@ -59,14 +60,14 @@ void main() {
   List listParam = [601, 123, 2, "dart", 45, 95, "dart", "dart24", 1];
   print(listParam.contains('dart'));
   print(listParam.contains(951));
-
+  print('\n');
   print('Задача 6.');
 //У вас есть список со значениями = ['post', 1, 0, 'flutter'];
 //И переменная String myDart = 'Flutter';
   List listParam2 = ['post', 1, 0, 'flutter'];
   String myDart = 'Flutter';
   print(listParam2.contains(myDart));
-
+  print('\n');
   print('Задача 7.');
 //У вас есть список со значениями [“I”, “Started", "Learn", "Flutter", "Since", "October"];
 //И переменная String myFlutter = ‘’;
@@ -78,7 +79,7 @@ void main() {
   List listParam3 = ['I', 'Started', 'Learn', 'Flutter', 'Since', 'October'];
   String myyFlutter = listParam3.join('*');
   print(myyFlutter);
-
+  print('\n');
   print('Задача 8.');
 //У вас есть массив со значением = [1, 9, 3, 195, 202, 2, 5, 7, 9, 10, 3, 15, 0, 11];
 //Ваша задача провести сортировку массива, чтобы все элементы начинались по возрастающей. Вы должны получить в консоли:
